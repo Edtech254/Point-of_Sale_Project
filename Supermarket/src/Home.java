@@ -142,9 +142,6 @@ public class Home extends javax.swing.JFrame {
         paidCash.setFont(new java.awt.Font("Sitka Display", 1, 16)); // NOI18N
         paidCash.setBorder(null);
         paidCash.addMouseListener(new java.awt.event.MouseAdapter() {
-            public void mouseClicked(java.awt.event.MouseEvent evt) {
-                paidCashMouseClicked(evt);
-            }
             public void mouseEntered(java.awt.event.MouseEvent evt) {
                 paidCashMouseEntered(evt);
             }
@@ -196,7 +193,7 @@ public class Home extends javax.swing.JFrame {
 
         jLabel1.setFont(new java.awt.Font("Sitka Display", 1, 26)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(0, 153, 153));
-        jLabel1.setText("Welcome To Magunas Point Of Sale System");
+        jLabel1.setText("Welcome To Magunas Main Branch Online Shop");
         jLabel1.setBorder(javax.swing.BorderFactory.createBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel1.add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(460, 0, 680, 60));
 
@@ -355,8 +352,6 @@ public class Home extends javax.swing.JFrame {
 
     private void paidCashActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_paidCashActionPerformed
         // TODO add your handling code here:
-        
-        
     }//GEN-LAST:event_paidCashActionPerformed
 
     private void DCTActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_DCTActionPerformed
@@ -486,10 +481,6 @@ public class Home extends javax.swing.JFrame {
     private void totalCostActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_totalCostActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_totalCostActionPerformed
-
-    private void paidCashMouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_paidCashMouseClicked
-        // TODO add your handling code here:
-    }//GEN-LAST:event_paidCashMouseClicked
 
     /**
      * @param args the command line arguments
